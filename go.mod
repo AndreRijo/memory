@@ -1,3 +1,3 @@
-module github.com/pbnjay/memory
+module github.com/AndreRijo/memory
 
-go 1.16
+go 1.22

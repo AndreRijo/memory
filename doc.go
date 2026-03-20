@@ -22,3 +22,11 @@ func TotalMemory() uint64 {
 func FreeMemory() uint64 {
 	return sysFreeMemory()
 }
+
+// AvailableMemory returns the total available system memory in bytes.
+//
+// The total available memory is installed physical memory size minus
+
+func AvailableMemory() uint64 {
+	return sysAvailableMemory()
+}
